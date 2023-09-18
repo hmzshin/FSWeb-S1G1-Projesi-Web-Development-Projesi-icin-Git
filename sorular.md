@@ -43,5 +43,5 @@ bir dalda birden fazla kişi aynı satırda değişiklik yaparsa ve bunu ana rep
 
 8. Merge conflict'i nasıl çözeriz?
 
-Daha  sonra cevaplayacağım
+
 
