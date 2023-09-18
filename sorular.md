@@ -12,36 +12,40 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 1. Git nedir?
 
-**Git, kullandığımız repositoların saklandığı ve gerektiği zaman eski sürümlere ulaşabileceğimiz , eski ve yeni sürümler arsındaki farkı görebileceğimiz, bir proje üzerinde birden fazla kişinin çalışabilmesini kolaylaştıran bir platform.
+**Git,bir versiyon kontrol sistemidir. Birden fazla kullanıcının aynı proje üzerinde çalışabilmesini kolaylaştıran bir platformdur.
 
 2. Git ile GitHub arasında ne fark var?
 
-**Git repositolara ulaşabileceğimiz ve üzerinde local olarak değişiklikler yapabileceğimiz sitem Gitgub ise git dosyalarının depolandığı serverlar.
+**Git repositolara ulaşabileceğimiz ve üzerinde local olarak değişiklikler yapabileceğimiz ve tekrardan bu değişiklikleri server a yükleyebileceğimiz bir sitem, Gitgub ise git dosyalarının depolandığı serverlar.
 
 3. Neden bir branch oluşturuyor?
 
-**Büyük bir projede birden farklı bölümler olabilir,mesela frontend ve backend gibi, oluşturulacak iki ayrı branch ile iki farklı bölgede aynı anda çalışılabilir ve daha sonra bu branchlar birleştirilerek uygulamanın son haline getirilir.
+**Büyük bir projede birden farklı bölümler olabilir,birden fazla özellik ekleme gibi, oluşturulacak iki ayrı branch ile iki farklı özellik üzerinde aynı anda çalışılabilir ve daha sonra bu branchlar birleştirilerek uygulama son haline getirilir.
 
 4. Pull Request'in amacı nedir?
 
-**Projeden sorumlu kişiye yaptığımız değişiklikleri projeye eklemesini istemek ve sorumlu kişi bu değlşiklikleri görmesini sağlamak.
+**oluşturulan branch lerin main branch ile birleştirilmesi isteğidir.
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 
-**git checkout "name of branch"
+**git checkout main
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 
-**git fetch uzak depodaki repositoları yerel depolara indirir fakat birleştirme yapmaz.
-**git frontend ve backend  olarak ikiayrı yazılan branchleri birleştirmek için kullanılır.
-**git clone serverde bulunan repositoları indiri ve localde otomatik olarak birleştirir.
+**git fetch ; uzak depodaki repositoları yerel depolara indirir fakat birleştirme yapmaz.
+**git merge ; frontend ve backend  olarak ikiayrı yazılan branchleri birleştirmek için kullanılır.
+**git clone ; serverde bulunan repositoları indirir ve localde otomatik olarak birleştirir.
+
+**"git clone" komutu, "git fetch" ve "git merge" komutlarının sırası ile çalıştırılması denebilir.
 
 7. Merge conflict nedir?
 
-bir dalda birden fazla kişi aynı satırda değişiklik yaparsa ve bunu ana repo ile merge etmeye çalışırsa merge conflict oluşur.
+**merge conflict bir döküman üzerinde aynı satır üzeirnde aynı anda yapılan değişiklik yüzünden oluşan çakışmayı ifade eder.
 
 
 8. Merge conflict'i nasıl çözeriz?
+
+**merge conflict yaşayan kullanıcılar iletişime geçerek ortak bir kod satırı yazabilir yada proje sorumlusu hangi kodun kullanılacağına karar verebilir.
 
 
 
